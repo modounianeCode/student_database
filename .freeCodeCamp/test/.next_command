@@ -37,3 +37,12 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 echo hello sql
 echo hello SQL
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+git init
+git remote add origin git@github.com:modounianeCode/student_database.git
+git branch
+git push -u origin master
+ls --color=auto
+git status
+git add .
