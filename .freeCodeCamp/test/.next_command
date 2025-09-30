@@ -46,3 +46,8 @@ git push -u origin master
 ls --color=auto
 git status
 git add .
+git status
+git commit -m "ajout de courses.csv et de students.csv"
+git push -u origin master
+clear
+psql --username=freecodecamp --dbname=postgres
